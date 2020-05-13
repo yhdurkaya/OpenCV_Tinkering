@@ -10,7 +10,7 @@
 #include <opencv2/dnn.hpp>
 
 std::string DATA_PATH = "../data/videos/";
-std::string MODEL_PATH = "../data/yolo/";
+std::string MODEL_PATH = "../data/models/";
 
 #define SSTR( x ) static_cast< std::ostringstream & >( ( std::ostringstream() << std::dec << x ) ).str()
 
