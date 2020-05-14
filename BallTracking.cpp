@@ -1,6 +1,8 @@
 //
 // Created by yhd on 9.05.2020.
 //
+//This project uses YOLOv3 but I didn't put the model files on github since those can be found easily.
+//
 
 #include <string>
 #include <unistd.h>
