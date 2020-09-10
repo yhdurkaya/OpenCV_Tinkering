@@ -11,6 +11,7 @@
 #include <opencv2/tracking.hpp>
 #include <opencv2/dnn.hpp>
 
+
 std::string DATA_PATH = "../data/videos/";
 std::string MODEL_PATH = "../data/models/";
 

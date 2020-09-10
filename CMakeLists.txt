@@ -7,7 +7,7 @@ find_package(OpenCV REQUIRED)
 find_package(dlib REQUIRED)
 
 
-add_executable(OpenCV_Tinkering FacialLandmarkDetection.cpp)
+add_executable(OpenCV_Tinkering SmileDetection.cpp)
 
 target_link_libraries( OpenCV_Tinkering ${OpenCV_LIBS})
 target_link_libraries( OpenCV_Tinkering dlib::dlib)
